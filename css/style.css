@@ -1,0 +1,415 @@
+/*----------------------------------------------------
+                   Batik - CSS File
+------------------------------------------------------*/
+
+
+/* Global
+------------------------------------------------------*/
+html,body{height:100%}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 auto;
+	padding:0;
+	background-image:url(../images/pattern.jpg);
+	background-repeat:repeat;
+	color:#7d7d7d;
+	height:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+*:focus{
+	outline:none; /* removes ugly dotted border but may make template more unsuable, up to you
+				 if you want to keep it! */
+}
+.clr{
+	clear:both
+}
+form{
+	margin:0; padding:0;
+}
+hr{
+	border:0;
+	color:#7d7d7d;
+	background-color:#7d7d7d;
+	height:1px;
+}
+
+
+/* Default Element Styles
+------------------------------------------------------*/
+/* heading */
+h1, h2, h3, h4, h5{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-weight:normal; color:#0d0d0d;
+}
+h1{
+	font-size:36px; 
+	line-height:30px; 
+	margin-bottom:5px;
+}
+h2{
+	font-size:24px; 
+	line-height:28px; 
+	margin-bottom:8px;
+}
+h3{
+	font-size:18px; 
+	line-height:20px; 
+	margin-bottom:5px;
+}
+h4{
+	font-size:16px; 
+	line-height:18px; 
+	margin-bottom:8px; 
+	font-weight:bold;
+}
+h5{
+	font-size:14px; 
+	margin:3px 0px; 
+	padding:0px; 
+	letter-spacing:1px;
+}
+
+/* links */
+a{
+	color:#7d7d7d; 
+	text-decoration:underline;
+}
+a:visited{
+	color:#7d7d7d; 
+	text-decoration:underline;
+}
+a:hover{
+	color:#7d7d7d; 
+	text-decoration:none;
+}
+a img{
+	border:none
+}
+.imgleft{
+	float:left; 
+	margin-top:4px; 
+	margin-right:12px;
+	border:1px solid #dedede;
+}
+.imgright{
+	float:right; 
+	margin-top:4px; 
+	margin-left:12px;
+	border:1px solid #dedede;
+}
+
+/* lists, blockquotes and paragraphs */
+p, ul, ol, blockquote{
+	font-size:11px;
+	line-height:20px;
+	margin-bottom:14px;
+	color:#7d7d7d;
+}
+ul, ol{
+	margin:10px 0 35px 40px;
+}
+li ol, li ul{
+	font-size:1.0em;
+	list-style:square;
+	margin-bottom:0;
+	margin-top:0;
+}
+li ol{
+	list-style:decimal;
+}
+blockquote{
+	font-style:italic;
+	margin:0px;
+	color:#b3b3b3;
+	padding:0px 0px 2px 33px;
+/*	background-image:url(../images/quote.png);*/
+	background-position:0px 5px;
+	background-repeat:no-repeat;
+	float:left;
+}
+.use_background {
+		background-image:url(../images/quote.png);	
+}
+blockquote p{
+	color:#b3b3b3;
+}
+
+/* code */
+code{
+	font-family:Tahoma, Arial, Verdana;
+	letter-spacing:1px;
+	margin:25px 0 25px 0px;
+	display:block;
+	font-size:0.9em;
+	border-left:4px solid #dedede;
+	padding:15px 10px;
+}
+
+
+/* Container
+------------------------------------------------------*/
+#container{
+	background-image:url(../images/bg-glow.png);
+	background-repeat:no-repeat;
+	background-position:top-center; 
+	width:960px;
+	margin:0px auto;	
+}
+#content{
+	background-image:url(../images/bg-container.png);
+	background-position:0px 95px;
+	background-repeat:no-repeat;
+	margin:0px auto;
+	width:670px;
+	height:551px;
+}
+#content-left{
+	width:430px; 
+	margin:108px 0px 0px 7px; 
+	float:left;
+}
+#content-right{
+	background-image:url(../images/shadow-menu.jpg);
+	background-repeat:no-repeat;
+	background-position:1px 88px;
+	width:230px;
+	height:443px;
+	margin-top:108px; 
+	float:left;
+}
+
+
+/*  Navigation
+------------------------------------------------------*/
+#nav{
+	float:left;
+	list-style-type: none;
+	margin:35px 0px 126px 26px;
+}
+#nav li{
+	line-height:30px;
+	float:left;
+}
+#nav li a:link, #nav li a:visited{
+	display:block;
+	width:204px;
+	text-decoration: none;
+	outline: none;
+	text-align:left;
+	font-size:18px;
+	color:#000;
+}
+#nav li a:hover{
+	padding-left:10px;
+}
+
+
+/* Logo
+------------------------------------------------------*/
+#logo{
+	background-image:url(../images/devider-logo.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	height:78px;
+	font-size:30px;
+	color:#886532;
+	text-align:center;
+	margin-top:20px;
+}
+
+
+/* Footer
+------------------------------------------------------*/
+#footer{
+	font-size:10px;
+	color:#c5c4c4;
+	text-align:center;
+}
+
+
+/* Background Image Content
+------------------------------------------------------*/
+.bg-front{
+	background-image:url(../images/bg-front.jpg); /* You can change this image with your own image (430x430px) */
+	background-repeat:no-repeat;
+	height:430px;
+	float:left;
+}
+.bg-inner{
+	background-image:url(../images/bg-inner.jpg); /* You can change this image with your own image (430x81px) */	
+	background-repeat:no-repeat;
+	background-position:top;
+	height:430px;
+	float:left;
+}
+
+
+/*  Home page
+------------------------------------------------------*/
+.front-title{
+	background-color:#000;
+	filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+    width:384px;
+	padding:10px 23px;
+	margin-top:301px;
+}
+.front-title h2{
+	color:#fff;
+}
+.front-title p{
+	font-size:12px;
+	color:#dfdfdf;
+}
+
+
+/*  About Us page
+------------------------------------------------------*/
+.inner-title{
+    width:384px;
+	padding:10px 23px;
+	margin-top:42px;
+}
+.inner-title h1{
+	color:#fff;
+}
+.front-title p{
+	color:#dfdfdf;
+}
+
+
+/*  Our Wedding page
+------------------------------------------------------*/
+.ceremony{	
+	text-align:center;
+}
+.divider-content{
+	width:274px;
+	height:30px;
+	background-image:url(../images/devider-content.png);
+	background-repeat:no-repeat;
+	margin:0px 60px 18px 60px;
+	float:left;
+}
+
+
+/*  Gallery page
+------------------------------------------------------*/
+#gallery-page{
+	margin:20px 0px 0px 10px;
+}
+.page{
+	width:363px;
+	height:269px;
+}
+.photo-gallery{
+	width:79px; 
+	height:79px;
+	text-align:center;
+	margin:0px 15px 15px 0px; 
+	float:left;
+}
+.photo-gallery-last{
+	width:79px; 
+	height:79px;
+	text-align:center;
+	margin:0px 0px 15px 0px; 
+	float:left;
+}
+.photo-gallery-img{
+	border:1px solid #d3d3d3;
+}
+#gallery-nav{
+	list-style-type:none; 
+	margin:280px 12px 0px 0px; 
+	float:right;
+}
+#gallery-nav li{
+	margin-left:15px; 
+	float:left;
+}
+#gallery-nav li a, #gallery-nav li a:visited{
+	text-decoration:none;
+}
+
+
+/* Contact Us Page
+------------------------------------------------------*/
+form{
+	margin:0; 
+	padding:0;
+}
+#contactFormArea{
+	width:380px; 
+	color:#7d7d7d;
+}
+.input{
+	font-size:11px; 
+	background-color:#ffffff;
+	border:1px solid #e3e3e3; 
+	width:230px; 
+	padding:4px 4px 4px 4px; 
+	margin-bottom:7px; 
+	color:#a9a9a9;
+}
+.input-submit{
+/*	background-image:url(../images/but-send.gif); */
+	background-repeat:no-repeat; 
+	padding:0px; 
+	margin:9px 80px 0px 0px; 
+	border:0px; width:58px; 
+	height:21px; 
+	cursor:pointer; 
+	float:right;
+}
+.textarea{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	background-color:#ffffff; 
+	border:1px solid #e3e3e3; 
+	width:230px; 
+	padding:4px 4px 4px 4px; 
+	margin:0px; 
+	color:#a9a9a9;
+}
+#loadBar{
+	width:325px;
+	height:17px;
+	border:1px solid #dcdcdc;
+	background-color:#f2f2f2;
+	color:#797979;
+	text-align:center;
+	padding:1px 30px 5px 30px;
+}
+#emailSuccess{
+	width:325px;
+	height:17px;
+	border:1px solid #dcdcdc;
+	background-color:#f2f2f2;
+	color:#797979;
+	text-align:center;
+	padding:1px 30px 5px 30px;
+}
+.loading-text{
+	font-weight:bold;
+	margin-left:5px;
+	float:left;
+}
+.loading-form{
+	width:16px;
+	height:16px;
+	background-image:url(../images/loading.gif);
+	background-repeat:no-repeat;
+	margin:2px 0px 0px 50px;
+	float:left;
+}
+
+/* from main file for form */
+fieldset { border:0; margin:0; padding:0; }
+label { float:left; width:60px; margin-top:3px;}

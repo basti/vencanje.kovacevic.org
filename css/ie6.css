@@ -1,0 +1,62 @@
+/*----------------------------------------------------
+           Batik - CSS - Exclusively for IE6
+------------------------------------------------------*/
+
+
+/* Container
+------------------------------------------------------*/
+#content-left{
+	width:430px; 
+	margin:107px 0px 0px 4px; 
+	float:left;
+}
+
+
+/*  Navigation
+------------------------------------------------------*/
+#nav{	
+	margin:35px 0px 126px 13px;
+}
+#nav li a:link, #nav li a:visited{
+	width:200px;
+}
+#nav li a:hover{
+	width:150px;
+	padding-left:10px;
+}
+
+
+/*  Gallery page
+------------------------------------------------------*/
+#gallery-page{
+	height:269px;
+	margin:0px 0px -600px 5px;
+	float:left;
+}
+.page{
+	height:269px;
+	float:left;
+}
+.photo-gallery{
+	margin:13px 13px 0px 0px; 
+}
+.photo-gallery-last{
+	margin:12px 0px 0px 0px; 
+}
+#gallery-nav{
+	margin:296px 7px 0px 0px; 
+}
+
+
+/* Contact Us Page
+------------------------------------------------------*/
+.input-submit{
+	background-image:url(../images/but-send.gif); 
+	background-repeat:no-repeat; 
+	padding:0px; 
+	margin:9px 77px 0px 0px; 
+	border:0px; width:58px; 
+	height:21px; 
+	cursor:pointer; 
+	float:right;
+}
